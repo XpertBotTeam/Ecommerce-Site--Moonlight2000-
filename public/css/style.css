@@ -1,0 +1,368 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+html {
+    scroll-behavior: smooth;
+}
+nav {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    border-bottom: 1px solid #464545;
+}
+nav div {
+    padding: 5px;
+}
+.shop {
+    height: 150px;
+}
+.active {
+    text-decoration: underline;
+    color: lightblue;
+}
+nav a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0.5rem;
+    padding: 10px 0;
+    background-color: none;
+}
+nav img {
+    width: 80px;
+    height: 20px;
+}
+.login a {
+    padding: 0 10px;
+}
+.main_title {
+    font-family: "Montserrat";
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+.formbox {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    border: 2px solid lightblue;
+    font-family: "Montserrat";
+}
+.formbox_landing {
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: xx-large;
+    line-height: 7rem;
+    font-family: "Montserrat";
+    text-align: center;
+    border: 2px solid lightblue;
+    margin-top: 100px;
+}
+.formbox_landing a {
+    text-decoration: none;
+    color: #464545;
+}
+
+.formtxt {
+    font-family: "Montserrat";
+}
+.forminput {
+    text-align: center;
+    margin: 10px 0;
+}
+#des {
+    margin: 10px 0;
+}
+.product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* margin: 10px; */
+    margin: 0 10px;
+    margin-top: 30px;
+    padding: 10px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 200px;
+    width: 200px;
+    min-width: 200px;
+    text-decoration: none;
+}
+.productshow {
+    background-color: #fff;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px 0;
+    border: 2px solid lightblue;
+    padding: 10px;
+}
+.response {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Montserrat";
+}
+.contact_response {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Montserrat";
+    border: 2px solid lightblue;
+    width: fit-content;
+    padding: 15px;
+    margin: 100px 0;
+}
+.productshow img {
+    width: 400px;
+    height: 400px;
+}
+.productshow #info {
+    font-family: "Montserrat";
+    text-align: center;
+    font-size: x-large;
+}
+.return_icon img {
+    width: 50px;
+    height: 50px;
+}
+.return_icon a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icon a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: red;
+}
+.icon img {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.learn_more h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.learn_more a {
+    text-decoration: none;
+    color: red;
+}
+.learn_more img {
+    width: 50px;
+    height: 50px;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+    transition: 0.25s ease-in-out;
+}
+.formerror {
+    color: red;
+    font-size: xx-small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.table_orders {
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid grey;
+    margin: 50px 0;
+    font-family: "Montserrat";
+    border-collapse: collapse;
+}
+.table_orders td {
+    border: 2px solid grey;
+    width: 150px;
+    text-align: center;
+}
+.product_img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+.info {
+    font-family: "Montserrat";
+    text-align: center;
+    max-width: 60ch;
+}
+.info_about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: xx-large;
+    margin-top: 100px;
+    border: 2px solid lightblue;
+    padding: 20px;
+}
+.shop_btn {
+    background-color: #464545;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 15px;
+    margin: 0 0 50px 0;
+    text-decoration: none;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+.slide_img {
+    height: 400px;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.product_img_show {
+    border-radius: 10px;
+}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .prev,
+    .next,
+    .text {
+        font-size: 11px;
+    }
+}
+@media (max-width: 780px) {
+    nav {
+        font-size: x-small;
+    }
+    .productshow img {
+        width: fit-content;
+        height: 150px;
+    }
+    .productshow {
+        flex-direction: column;
+    }
+    .icon img {
+        width: 25px;
+        height: 20px;
+    }
+    .icon {
+        font-size: medium;
+    }
+    .main_title h1 {
+        font-size: large;
+    }
+    .main_title h2 {
+        font-size: medium;
+    }
+    nav img {
+        width: 50px;
+        height: 15px;
+    }
+}
